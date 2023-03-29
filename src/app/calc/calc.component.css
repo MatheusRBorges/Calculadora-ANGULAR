@@ -1,0 +1,60 @@
+div{
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 8px;
+    background-color: #808080;
+    border: solid 5px black;  
+}
+
+button{
+    margin-bottom: 0px;
+    border: solid 3px white;
+    width: 220px;
+    height: 110px;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+#btn{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    border: solid 3px white;
+    width: 110px;
+    height: 110px;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+#btn2{
+    background-color: black;
+    color: white;
+    border: solid 3px white;
+    width: 110px;
+    height: 110px;
+    font-size: large;
+}
+
+#limpar{
+    margin-bottom: 25px;
+}
+
+input{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    color:white;
+}
+
+p{
+    color:white;
+    font-size: 35px;
+    font-family: arial;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+<div>
+    <form >
+          <input type="number" name="num1" placeholder = "Insira o Primeiro Número"[(ngModel)]="num1">
+          <input type="number" name="num2" placeholder = "Insira o Segundo Número"[(ngModel)]="num2">
+          <u><p>Resultado</p></u>
+          <input [value]="resultado" type="number" readonly>
+          <br>
+          <button (click)="somar()" id="btn">&plus;</button>
+          <button (click)="subtrair()" id="btn">&minus;</button>
+          <br>
+          <button (click)="multiplicar()" id="btn2">&times;</button>
+          <button (click)="dividir()" id="btn2">&divide;</button>
+          <br>
+          <button type="reset" (click)="limpar" id="limpar">Limpar</button>
+    </form>
+</div>
